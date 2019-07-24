@@ -1,1 +1,35 @@
-print("aaaa")
+print("HelloWord")
+gtuple=(11,22,33,"gg","guty",55)
+glist=[1,2,3,"haha","xixi",1,gtuple,"qwreetrr"]
+
+print(glist)
+glist2=glist.copy()
+print(glist2)
+glist.append("df")
+print(glist)
+num=glist.count(1)
+print(num)
+print(glist.index(1))
+glist.insert(0,"aaa")
+print(glist)
+a=glist.pop(len(glist)-1)
+print(a)
+print(glist)
+glist.remove(1)
+print(glist)
+glist.extend("哈啊哈")
+print(glist)
+print("====================================")
+gdict={
+    "1":"a",
+    "2":"b",
+    "3":"c",
+    "dict1":{
+        "name":"三三",
+        "class":"001"
+
+    }
+}
+gdict2=gdict.copy()
+print(gdict2)
+print(gdict.get("1"))
